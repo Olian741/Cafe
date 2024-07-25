@@ -1,0 +1,9 @@
+ :root{
+--primary-color: #cf64f7;
+--secondary-color:#F7F5C9;
+--tertiary-color: #9E9E9E;
+ }
+ body{
+    font-family: "Poppins" , sans-serif;
+ }
+
