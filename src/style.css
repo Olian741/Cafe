@@ -35,7 +35,6 @@ section img{
  .btn-branding{
   background: var(--primary-color);
   border-radius: 4px;
-
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
