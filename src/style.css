@@ -1,6 +1,6 @@
 :root {
   --primary-color: #cf64f7;
-  --secondary-color: #F7F5C9;
+  --secondary-color: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
   --tertiary-color: #595C5F;
 }
 
@@ -84,7 +84,7 @@ section img{
   border-radius: 26px;
 }
 .blog-page {
-    background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+    background: var(--secondary-color);
 }
 
 .blog-page .container {
@@ -223,6 +223,32 @@ section img{
 .right-arrow {
     right: 10px;
 }
+.latest-coffee-news {
+    background: var(--secondary-color);
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+.news-wrapper {
+    background-color: white; 
+    margin: 0 auto;
+    padding: 20px; 
+    max-width: 800px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-content h3 {
+    color: var(--tertiary-color);
+    margin-bottom: 10px; 
+}
+
+.news-content p {
+    color: var(--tertiary-color);
+    margin-bottom: 20px; 
+    line-height: 1.6; 
+}
+
 
 
 
